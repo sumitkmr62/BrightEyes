@@ -1,0 +1,4 @@
+sales_record_id,transaction_date,employee_id,store_id,net_sales_amount,transaction_status
+S001,2026-01-05,E001,ST001,12500.00,Completed
+S002,2026-01-06,E001,ST001,8400.00,Completed
+S003,2026-01-06,E002,ST001,3200.00,Completed
