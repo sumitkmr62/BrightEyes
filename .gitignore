@@ -1,0 +1,39 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+*.pem
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Local data: Do not commit source or generated datasets
+/data/source
+/data/raw
+/data/processed/*
+
+# Generated outputs and logs
+/outputs/
+/reports/generated/
+*.log
+
+# Local database and backup files
+*.bak
+*.mdf
+*.ldf
+*.db
+
+# IDE and local system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
